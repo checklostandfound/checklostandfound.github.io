@@ -30,9 +30,21 @@
                     src="assets/asset.png"
                     scale="1 1 1"
                     class="clickable"
+                    position="10 0 0"
                     rotation="-90 0 0"
                     gesture-handler
                 ></a-image>
+                
+                                <a-entity
+                    id="bowser-model"
+                    position="-10 0 0"
+                    scale="0.7649308510725977 0.7649308510725977 0.7649308510725977"
+                    animation-mixer="loop: repeat"
+                    gltf-model="#animated-asset"
+                    class="clickable"
+                    gesture-handler
+                ></a-entity>
+                
             </a-marker>
 
             <a-entity camera></a-entity>
