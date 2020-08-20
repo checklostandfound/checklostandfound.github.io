@@ -22,9 +22,6 @@
                 <a-asset-item
                     id="animated-asset"
                     src="assets/asset.glb"
-                    scale="20 20 20"
-                    rotation="270 0 0"
-                    position="0 0 2"
                 ></a-asset-item>
             </a-assets>
 
@@ -42,6 +39,9 @@
                     id="bowser-model"
                     animation-mixer="loop: repeat"
                     gltf-model="#animated-asset"
+                    scale="20 20 20"
+                    rotation="270 0 0"
+                    position="0 0 2"
                     class="clickable"
                     gesture-handler
                 ></a-entity>
